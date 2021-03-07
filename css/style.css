@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/* CSS Document 
+Colors codes comminly used
+    apwu blue color == color:    #13619F;  
+    apwu red color == color:     #F5221A;
+*/
+/*For sizing of YouTube embeded video*/
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 73.56%;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+}
+/*For sizing of YouTube embeded video*/
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.bg-apwu-blue{
+  background: #0065A8; 
+}
+    /* The main IT/ASC home image */
+.cover_image {
+      width: 100%;
+      height: 100vh;
+      background: url("../images/itasc2.png") no-repeat 50% 50%;
+      background-size: cover;
+}
+.about-us{
+    padding: 2% 1% 1% 1%;
+    text-align:center;
+    color:rgba(255,255,255,.99);
+	flex: auto;
+    background-color:rgba(30,28,28,.90);
+    
+}
+.stewarts{ /* for stewards images block*/
+	background: #0065A8; 
+	text-align:center;
+	padding-bottom: 10px;
+}
+.blue-stripe{ /* for stewards images block*/
+	background: #0065A8; 
+	text-align:center;
+	padding-bottom: 10px;
+}
+.stewarts-title {/* for stewards iitle block*/
+	color:rgba(255,255,255,.99);
+	flex: auto;
+	text-align: center;
+}
+.avatars { /* for stewards images block*/
+  margin-left:20px;
+  margin-right: 20px;
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+}
+.rows {/*content cards*/
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+    background-color: black;
+}
+.columns {/*content cards*/
+  flex: 100%; 
+  max-width: 100%;
+}
+.columns img {/*content cards*/
+  vertical-align: middle;
+}
+.containers {/*content cards*/
+  position: relative;
+  width: 100%;
+}
+.images {/*content cards*/
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlays {/*content cards*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+}
+.containers:hover .overlays { /*content cards*/
+  opacity: 0.5;
+}
+.texts {  
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*link colors for nav bar*/
+.link-color{
+    text-decoration: none;
+    background-color: transparent;
+    color: rgba(255,255,255,.5);
+}
+li > a:hover{
+    color:rgba(55,54,54,1.00);
+    text-decoration: none;
+}
+/* for content cards for cell phone Styles */
+@media only screen and (min-width: 481px) {
+    .columns {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+/* for content cards for Desktop Styles */
+@media only screen and (min-width: 1024px) {
+    .columns {
+      flex: 25%; /* change to 33.3% for 3 squares or 12.5% for 8*/
+      max-width: 25%;
+    }
+}
+footer{
+    text-align: center;
+    background-color: #0065A8;
+    padding: 35px 0px 25px 0px;
+}
+    /*This is for the toolbar only*/
+	@media (min-width: 767px){ 
+        .dropdown-menu .dropdown-toggle:after{ /* for nav bar */
+			border-top: .3em solid transparent;
+		    border-right: 0;
+		    border-bottom: .3em solid transparent;
+		    border-left: .3em solid;
+		}
+		.dropdown-menu .dropdown-menu{/* for nav bar */
+			margin-left:0; margin-right: 0;
+		}
+		.dropdown-menu li{/* for nav bar */
+			position: relative;
+		}
+		.nav-item .submenu{ /* for nav bar */
+			display: none;
+			position: absolute;
+			left:100%; top:-7px;
+		}
+		.nav-item .submenu-left{ /* for nav bar */
+			right:100%; left:auto;
+		}
+		.dropdown-menu > li:hover{ background-color: #f1f1f1 }/* for nav bar */
+		.dropdown-menu > li:hover > .submenu{/* for nav bar */
+			display: block;
+		}   
+	}
+/*For cell phones viewing*/
+@media only screen and (max-width: 767px) {
+    .cover_image {
+      width: 100%;
+      height: 50vh;
+      background: url("../images/itascSmall.png") no-repeat 50% 50%;
+      background-size: cover;
+  }
+  
+}
