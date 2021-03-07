@@ -1,0 +1,672 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="htmlcss bootstrap menu, navbar, mega menu examples" />
+<meta name="description" content="Navigation  menu with submenu examples for any type of project, Bootstrap 4" />
+<title>APWU 7019 PDC Union it/asc</title>
+<link rel="stylesheet" href="css/style.css">
+<!-- jQuery --> 
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+crossorigin="anonymous"></script> 
+
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Josefin+Slab:wght@100&display=swap" rel="stylesheet">
+<!--link for font awesome (inside meeting modal)-->    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script> 
+<!--for navbar (these are not working in a linked css sheet)-->
+
+</head>
+<body class="bg-light">
+<!-- ========================= SECTION CONTENT ========================= -->
+<div class="container"> 
+  <!--navbar class="bg-custom"-->
+  <nav class="navbar navbar-expand-md navbar-dark bg-apwu-blue fixed-top "  ><!--can change nav to transparent .bg-transparent -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="main_nav"> <img src="images/Logo.png" alt="Logo" style="width:40px;">
+      <ul class="navbar-nav">
+        <li class="nav-item active"> <a href="" class="link-color" data-toggle="modal" data-target="#meetings-modal" data-whatever="">&nbsp;Meetings</a></li> 
+        <!--li class="nav-item"><a class="nav-link" href="#"> About </a></li-->
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> External-Links</a>
+          <ul class="dropdown-menu dropdown-menu-right">
+            <li><a class="dropdown-item dropdown-toggle" href="#">National/Local APWU, and Other Unions</a>
+              <ul class="submenu submenu-left dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.apwu.org/" target="_blank">National APWU</a></li>
+                <li><a class="dropdown-item" href="http://www.facebook.com/APWUnational" target="_blank">APWU Facebook Page</a></li>
+                <li><a class="dropdown-item" href="https://apwu.org/support-services-division" target="_blank">Support Services Craft APWU</a></li>
+                <li><a class="dropdown-item" href="http://www.nalc.org/" target="_blank">National Association of Letter Carriers</a></li>
+                <li><a class="dropdown-item" href="http://www.aflcio.org/" target="_blank">National AFL-CIO</a></li>
+                <li><a class="dropdown-item" href="http://www.mnaflcio.org/" target="_blank">Minnesota AFL-CIO</a></li>
+                <li><a class="dropdown-item" href="http://www.facebook.com/mnaflcio" target="_blank">MN AFL-CIO Facebook Page</a></li>
+              </ul>
+            </li>
+            <li><a class="dropdown-item dropdown-toggle" href="#">News</a>
+              <ul class="submenu submenu-left dropdown-menu">
+                <li><a class="dropdown-item" href="http://www.lunewsviews.com/" target="_blank">Postal Reporter</a></li>
+                <li><a class="dropdown-item" href="https://ilcaonline.org/workers-independent-news-win/" target="_blank">Workers Independent News</a></li>
+              </ul>
+            </li>
+            <li><a class="dropdown-item dropdown-toggle" href="#">Labor History</a>
+              <ul class="submenu submenu-left dropdown-menu">
+                <li><a class="dropdown-item" href="http://www.thefriends.org/programs/annual_events/untold.html" target="_blank">Untold Labor History Series</a></li>
+                <li><a class="dropdown-item" href="http://guides.lib.washington.edu/content.php?pid=80438&sid=596049" target="_blank">History - Labor</a></li>
+              </ul>
+            </li>
+            <li><a class="dropdown-item dropdown-toggle" href="#">USPS Links</a>
+              <ul class="submenu submenu-left dropdown-menu">
+                <li><a class="dropdown-item" href="http://www.usps.com/" target="_blank">USPS Commercial Site</a></li>
+                <li><a class="dropdown-item" href="https://liteblue.usps.gov/" target="_blank">USPS Lite Blue</a></li>
+                <li><a class="dropdown-item" href="http://www.lunewsviews.com/earnings_statement.htm" target="_blank">How to Read Your Paystub</a></li>
+              </ul>
+            </li>
+            <li><a class="dropdown-item dropdown-toggle" href="#">Benefits for being a Union Member</a>
+              <ul class="submenu submenu-left dropdown-menu">
+                <li><a class="dropdown-item" href="http://www.unionplus.org/" target="_blank">Union Plus</a></li>
+                <li><a class="dropdown-item" href="http://www.apw-aba.org/" target="_blank">Accident Benefit Association</a></li>
+              </ul>
+            </li>
+            <li><a class="dropdown-item dropdown-toggle" href="#">Health Plan and Open Season Information</a>
+              <ul class="submenu submenu-left dropdown-menu">
+                <li><a class="dropdown-item" href="http://www.apwuhp.com/" target="_blank">APWU Health Plan</a></li>
+                <li><a class="dropdown-item" href="http://opm.gov/insure/" target="_blank">Office of Personnel Management - Benefits Information</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- navbar-collapse.// --> 
+  </nav>
+</div>
+<!-- container //  --> 
+
+<!--Home hero image -->
+<div class="cover_image"> </div>
+    
+<!--APWU Stewads images and name-->
+<div class="stewarts">
+  <h6 class="stewarts-title">MEET YOUR STEWARDS</h6>
+  <img src="images/placeholder.png" alt="Teresa Burns" class="avatars">
+  <img src="images/placeholder.png"  alt="Timothy Frankland (Chief)" class="avatars"> 
+  <img src="images/placeholder.png"  alt="Don Kusick" class="avatars"> 
+  <img src="images/placeholder.png"  alt="Dan Magnan" class="avatars"> 
+  <img src="images/placeholder.png"  alt="Kim Maurer" class="avatars">
+  <img src="images/placeholder.png"  alt="April Mellen" class="avatars"> 
+  <img src="images/placeholder.png"  alt="Diana Shughart" class="avatars"> 
+  <img src="images/placeholder.png"  alt="Aaron Young" class="avatars"> 
+</div>
+<!--end Stewards block--> 
+    
+    <!--Who are we-->    
+<div class="about-us">
+<h6>The Twin Cities PDC Local 7019 is a chapter of the National APWU. We average roughly 400 members at any given time. Our members work at the United States Postal Service Information Technology/Accounting Service Center in Eagan, Minnesota.</h6>
+</div>
+    
+    <!--used for a blue stripe-->
+<div class="stewarts">
+</div>
+<!--end Stewards block--> 
+
+<!--------begin Content Cards-------->
+<div class="rows"> 
+  <!-- card 1 -->
+  <div class="columns"> <a href="#button" class="" data-toggle="modal" data-target="#sunshine-Modal" data-whatever="@mdo">
+    <div class="containers"> <img src="images/sunShineEdited.png" class="images">
+      <div class="overlays">
+        <div class="texts">Sunshine Comittee</div>
+      </div>
+    </div>
+    </a> </div>
+  <!-- card 2 -->
+  <div class="columns"> <a href="#button" class="" data-toggle="modal" data-target="#the-data-feedback" data-whatever="@mdo">
+    <div class="containers"> <img src="images/the-data-feedback.png" class="images">
+      <div class="overlays">
+        <div class="texts">Click Here to <br>
+          Submit a Story</div>
+      </div>
+    </div>
+    </a> </div>
+  <!-- card 3 -->
+  <div class="columns"> <a href="#button" class="" data-toggle="modal" data-target="#pay-scale-modal" data-whatever="@mdo">
+    <div class="containers"> <img src="images/pay-charts.png" class="images">
+      <div class="overlays">
+        <div class="texts">Click Here to <br>
+          View Pay Scales</div>
+      </div>
+    </div>
+    </a> </div>
+  <!-- card 4 -->
+  <div class="columns"> <a href="#button" class="" data-toggle="modal" data-target="#contract-modal" data-whatever="@mdo">
+    <div class="containers"> <img src="images/2017-2019contractpng.png" class="images">
+      <div class="overlays">
+        <div class="texts">2017 - 2019 <br>
+          Contract</div>
+      </div>
+    </div>
+    </a> </div>
+  <!-- card 5 -->
+  <div class="columns"> <a href="https://d1ocufyfjsc14h.cloudfront.net/sites/default/files/web_1187_-_rev_jul_2020__2.pdf" class="" data-toggle="" data-target="" data-whatever="">
+    <div class="containers"> <img src="images/joint-the-apwu.png" class="images">
+      <div class="overlays">
+        <div class="texts">Join <br>
+          Now!</div>
+      </div>
+    </div>
+    </a> </div>
+  <!-- card 6 -->
+  <div class="columns"> <a>
+    <div class="containers">
+      <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JaO1xRzqoGk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    </a> </div>
+  <!-- card 7 -->
+  <div class="columns"> <a href="#button" class="" data-toggle="modal" data-target="#local-news-modal" data-whatever="@mdo">
+    <div class="containers"> <img src="images/localnews.png" class="images">
+      <div class="overlays">
+        <div class="texts">Your Local APWU<br>
+          PDC 7019<br>
+          News</div>
+      </div>
+    </div>
+    </a></div>
+  <!-- card 8 -->
+  <div class="columns"> <a href="pdfs/scholarship.pdf" class="" data-toggle="" data-target="" data-whatever="">
+    <div class="containers"> <img src="images/scholorship.png" class="images">
+      <div class="overlays">
+        <div class="texts">Apply for a Scholorship<br> Closed on March 20th, 2021<br> please check back
+      </div>
+      </div>
+    </div>
+    </a></div>
+  <!-- card 9 -->
+  <div class="columns"> <a type="#button" class="" data-toggle="modal" data-target="#meetings-modal">
+    <div class="containers"> <img src="images/meetings-content-card-image.png" class="images">
+      <div class="overlays">
+        <div class="texts">GMM Monthly Union Meeting<br>
+        </div>
+      </div>
+    </div>
+    </a> </div>
+  <!-- card 10 -->
+  <div class="columns"> <a type="#button" class="" data-toggle="modal" data-target="#fmla-modal">
+    <div class="containers"> <img src="images/fmla.png" class="images">
+      <div class="overlays">
+        <div class="texts">FMLA<br>Resources
+        </div>
+      </div>
+    </div>
+    </a> </div>
+  <!-- card 11 -->
+  <div class="columns"> <a type="#button" class="" data-toggle="modal" data-target="#eap-modal">
+    <div class="containers"> <img src="images/eap.png" class="images">
+      <div class="overlays">
+        <div class="texts">EAP <br> We all go through struggles <br> reach out <br>get help
+        </div>
+      </div>
+    </div>
+    </a> </div>
+  <!-- card 12 -->
+  <div class="columns"> <a type="#button" class="" data-toggle="modal" data-target="#legislative-modal">
+    <div class="containers"> <img src="images/legislative.png" class="images">
+      <div class="overlays">
+        <div class="texts">Legislative <br> Links
+        </div>
+      </div>
+    </div>
+    </a></div>
+  <!--This is the ending div for the content cards--> 
+</div>
+<!--------End Content Cards---------->
+<footer class="text-light">
+  <h3>TWIN CITIES LOCAL 7019</h3>
+  <p>Twin Cities Postal Data Center Local 7019<br>
+    APWU-AFL-CIO<br>
+    2825 Lone Oak Parkway<br>
+    Eagan, MN 55121-9100<br>
+    tcapwu7019web@gmail.com<br>
+    &#169; 2021 </p>
+</footer>
+
+<!--------modal for sunshine comittee---------->
+<div class="modal fade" id="sunshine-Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"> <img src="images/sunShineEditedForForm.png" width="100" height="auto" alt=""/>
+        <h5 class="modal-title" id="">Send some sunshine!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+       <form action="https://formspree.io/f/mzbkqzrn" method="POST">
+          <div class="form-group"> 
+            <!--<label for="recipient-name" class="col-form-label" ></label>-->
+            <input type="text" placeholder="your name" class="form-control" name=" from name" required>
+          </div>
+          <div class="form-group"> 
+            <!--<label for="recipient-name" class="col-form-label">Your email:</label>-->
+            <input type="email" placeholder="your email" class="form-control" name="from-email" required>
+          </div>
+          <div class="form-group"> 
+            <!--<label for="recipient-name" class="col-form-label">Recipient name:</label>-->
+            <input type="text" placeholder="recipient name" class="form-control" name="recipient-name" required>
+          </div>
+          <div class="form-group"> 
+            <!--<label for="recipient-name" class="col-form-label">Recipient's email:</label>-->
+            <input type="email" placeholder="recipient's email" class="form-control" name="recipients-email">
+          </div>
+          <div class="form-group"> 
+            <!--<label for="recipient-name" class="col-form-label">Recipient's phone:</label>-->
+            <input type="phone" placeholder="recipient's phone" class="form-control" name="recipients-phone">
+          </div>
+          <div class="form-group"> 
+            <!-- <label for="message-text" class="col-form-label">Reason for sunshine:</label>-->
+            <textarea rows="8" style="height:100%;"  name="reason for sunshine" class="form-control" placeholder="reason for sunshine" id="message-text" required></textarea>
+          </div>
+            <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="submit" value="send" class="btn btn-primary">Submit</button>
+      </div>
+        </form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+<!--------modal for the Data Feedback---------->
+<div class="modal fade" id="the-data-feedback" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="">Submit your data Feedback story here!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <form action="https://formspree.io/f/mzbkqzrn" method="POST">
+          <p><small>The Data Feedback is the Local's newsletter. It is published once every two months. The Local is currently evaluating the possibility of offering the PDF version of the newsletter online.</small></p>
+          <h8><small> Submission Policy: All members are encouraged to submit items and articles for publication. Deadline for all submissions is by the 1st of the month. Opinions expressed are not necessarily those of the editor, the Twin Cities Postal Data Center Local, or the APWU. Articles may be submitted here or sent to: tcapwu7019editor@gmail.com. No hard copy requiring retyping will be accepted. Please contact the editor if you have another format.</small></h8>
+          <div class="form-group"> <br>
+            <!--<label for="recipient-name" class="col-form-label" ></label>-->
+            <input type="text" placeholder="your name" class="form-control" name="data-feedback-submitted-by" required>
+          </div>
+          <div class="form-group"> 
+            <!--<label for="recipient-name" class="col-form-label">Your email:</label>-->
+            <input type="email" placeholder="your email" class="form-control" name="data-feedback-emailed-by" required>
+          </div>
+          <div class="form-group"> 
+            <!--<label for="recipient-name" class="col-form-label">Your email:</label>-->
+            <input type="phone" placeholder="your phone number" class="form-control" name="data-feedback-submitters-phone" >
+          </div>
+          <div class="form-group"> 
+            <!-- <label for="message-text" class="col-form-label">Reason for sunshine:</label>-->
+            <textarea rows="10" style="height:100%;" class="form-control" name="story submission" placeholder="your story here" id="submitted-story" required></textarea>
+          </div>
+             <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+        </form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+<!-- Modal for pay scales -->
+<div class="modal fade" id="pay-scale-modalxxx" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">RECENT PAY SCALES</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <ul>
+          Effective April 25, 2020
+          <li><a href="https://d1ocufyfjsc14h.cloudfront.net/sites/default/files/rsc_n2_april_25_2020.pdf" download>RSC N2 April 25, 2020 PDF</a></li>
+          <li><a href="https://d1ocufyfjsc14h.cloudfront.net/sites/default/files/rsc_n_april_25_2020.pdf" download>RSC N April 25, 2020 PDF</a></li>
+          <br>
+          Effective January 18, 2020
+          <li><a href="https://d1ocufyfjsc14h.cloudfront.net/sites/default/files/rsc_n2_january_18_2020.pdf" download>RSC N2 January 18, 2020 PDF</a></li>
+          <li><a href="https://d1ocufyfjsc14h.cloudfront.net/sites/default/files/rsc_n_january_18_2020.pdf" download>RSC N January 18, 2020 PDF</a></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--This next big modal calls different content by id, but it is reusing the same modal-->
+<div class="container"> 
+  <!-- pay scales-->
+  <div class="modal fade" id="pay-scale-modal" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">RECENT PAY SCALES</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            Effective April 25, 2020
+            <li><a href="https://d1ocufyfjsc14h.cloudfront.net/sites/default/files/rsc_n2_april_25_2020.pdf" download>RSC N2 April 25, 2020 PDF</a></li>
+            <li><a href="https://d1ocufyfjsc14h.cloudfront.net/sites/default/files/rsc_n_april_25_2020.pdf" download>RSC N April 25, 2020 PDF</a></li>
+            <br>
+            Effective January 18, 2020
+            <li><a href="https://d1ocufyfjsc14h.cloudfront.net/sites/default/files/rsc_n2_january_18_2020.pdf" download>RSC N2 January 18, 2020 PDF</a></li>
+            <li><a href="https://d1ocufyfjsc14h.cloudfront.net/sites/default/files/rsc_n_january_18_2020.pdf" download>RSC N January 18, 2020 PDF</a></li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contract -->
+  <div class="modal fade" id="contract-modal" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">Current Contract</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            View Online
+            <li><a href="pdfs/IT-AS_2017-2019_ContractExtensionAgreement.pdf" >2017-2019 Contract Extension</a></li>
+            <li><a href="pdfs/2017-2019contract.pdf">2017-2019 Agreement</a></li>
+            <br>
+            Download
+            <li><a href="pdfs/IT-AS_2017-2019_ContractExtensionAgreement.pdf" download>2017-2019 Contract Extension</a></li>
+            <li><a href="pdfs/2017-2019contract.pdf" download>2017-2019 Agreement</a></li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="local-news-modal" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">Twin Cities Local PDC 7019</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li><a href="pdfs/ITAS-2021AnnualLeaveCarryover-MD.pdf" >IT/AS 2021 Annual Leave Carryover</a></li>
+            <li><a href="pdfs/ITAS-2021AnnualLeaveExchange-MD.pdf">IT/AS 2021 Annual Leave Exchange</a></li>
+            <li><a href="pdfs/TACSHelpDesk_10-4_Pilot_MOU.pdf" >Memorandum of Understanding - TACS Help Desk 10/4 Pilot Program</a> (Effective 07/15/2020)</li>
+            <li><a href="pdfs/TwinCitiesPDC_CONSTITUTION_201901.pdf">Local Constitution and By-Laws</a>(Effective 06/01/2019)</li>
+            <li><a href="pdfs/LMOU2017.pdf">Memorandum of Understanding</a> (MOU - Updated 1/3/2018)</li>
+            <li><a href="pdfs/MOU_TACSHelpDesk.pdf">Memorandum of Understanding - TACS Help Desk</a> (MOU TACS)</li>
+            <li><a href="pdfs/voucher.pdf">Voucher Application Form</a> (Updated 12/10/2015)</li>
+            <li><a href="pdfs/awa.pdf" >Alternative Work Arrangement</a> (5/12/1992)</li>
+            <li><a href="pdfs/3189_notice.pdf" >3189 Notice</a></li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--meetings modal-->
+    <div class="modal fade" id="meetings-modal" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">GMM Upcoming Meetings</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+         
+      <li>March 31 06:00 PM Central </li>
+      <li>April 21 06:00 PM Central</li>
+      <li>June 16 06:00 PM Central</li>
+      <li>July 21 06:00 PM Central</li>
+      <li>August 18 06:00 PM Central</li>
+      <li>September 15 06:00 PM Central</li>
+      <li>October 20 06:00 PM Central</li>
+      <li>November 17 06:00 PM Central</li>
+      <li>December 15 06:00 PM Central</li>  
+              <br>
+   <h5></h5>
+           <!--These links use font-awsome for zoom as linked in the head href="path/to/font-awesome/css/font-awesome.min.css--> 
+      <i class="fa fa-calendar fa-2x" aria-hidden="true"> <a href="https://us02web.zoom.us/meeting/tZIpdu-vqj8oG9ysFQOW1v4sS23uTAb7LMp5/ics?icsToken=98tyKuGuqjosHdCRshiPRpwABoj4M-3wiClBjfpEjznULBcCdFflBbARJ4ZeEo_8">Click here to add the next meeting your calander</a> </i><br>
+      <br>
+      <i class="fa fa-users fa-2x" aria-hidden="true"> <a href="https://us02web.zoom.us/j/86416744218?pwd=SGRzZ2xwOXREbkhKK001VjRkNytBdz09">Click here to Join Meeting</a><br>
+      </i>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+      <!--fmla modal-->
+    <div class="modal fade" id="fmla-modal" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">FMLA Leave Resources</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+        </div>
+        <div class="modal-body">
+               <ul>
+                    <li><a href="pdfs/apwu_fmla_guide-2016_0.pdf">APWUs FMLA Guide</a></li> 
+                    <br>
+                    <li><a href="pdfs/fmla-certification_employees_serious_health_condition_0.pdf">Certification by a Health Care Provider for the Employee’s Own Serious Illness</a></li>
+                    <br>
+                    <li><a href="pdfs/fmla-certification_familymember_serious_health_condition_0.pdf">Certification by a Health Care Provider for a Family Member’s serious Illness </a></li>
+                    <br>
+                    <li><a href="pdfs/fmla-certification_qualifying_exigency_for_military_family_leave_1.pdf">Certification by Employee of Qualifying Exigency for Military Family Leave</a></li> 
+                    <br>
+                    <li><a href="pdfs/form-wh385v_military_caregiver_leave_2_0.pdf">Certification by a Service Member’s Health Care Provider for Caregiver Military Family Leave</a></li>
+                    <br>
+                    <li><a href="https://www.apwu.org/family-and-medical-leave-information">Further FMLA rescources including sample FMLA forms and more about FMLA regulations</a></li>           
+				</ul>   
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+         <!--Eap modal-->
+    <div class="modal fade" id="eap-modal" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">EAP Resources</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+        </div>
+        <div class="modal-body">
+               <ul>  
+                   <p>For immediate help call<br> 
+                    800-327-4968
+                       <br>
+                   TTY: 877-492-7341
+                       <br>
+                       (800-EAP-4YOU)
+                       <a href="https://uspswebchat.ndbh.com/i3root/">or text chat online</a></p>            
+                  <li><a href="https://usps.ndbh.com/EAP/Finder">Contact your local EAP Consultant</a></li> 
+                   <br>
+                   <li><a href="https://usps.ndbh.com/EAP">USPS EAP Website</a></li> 
+                   <br>
+                   Free live and recorded webinars through the EAP website. Topics include:
+                   <br>
+                   <li>Dealing with Difficult Coworkers</li>
+                   <li>Mindful Eating</li>
+                   <li>Managing Chronic Pain</li>
+                   <li>Coping with Loss in Life</li>
+                   <li>Cultivating Happiness Within Yourself</li>
+                   <a href="https://events-na5.adobeconnect.com/content/connect/c1/936006416/en/events/catalog.html?folder-id=2042504610&from-origin=ndbh.adobeconnect.com">Watch here</a>
+                   <br>                 
+				</ul>   
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+         <!--legislative modal-->
+    <div class="modal fade" id="legislative-modal" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">Legislative Links</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span> </button>
+        </div>
+        <div class="modal-body">
+              <ul>
+					<li><a href="http://www.aflcio.org/" target="_blank">AFL-CIO</a></li>
+					<li><a href="http://www.stpaulunions.org" target="_blank">St. Paul Regional Labor Federation</a></li>
+					<li><a href="http://www.minneapolisunions.org" target="_blank">Minneapolis Regional Labor Federation</a></li>
+				</ul>  
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+         <!--blank modal-->
+    <div class="modal fade" id="" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">Blank Modal</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+        </div>
+        <div class="modal-body">
+               <ul>          
+				</ul>   
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+         <!--blank modal-->
+    <div class="modal fade" id="" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">Blank Modal</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+        </div>
+        <div class="modal-body">
+               <ul>          
+				</ul>   
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+         <!--blank modal-->
+    <div class="modal fade" id="" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">Blank Modal</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+        </div>
+        <div class="modal-body">
+               <ul>          
+				</ul>   
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+         <!--blank modal-->
+    <div class="modal fade" id="" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">Blank Modal</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+        </div>
+        <div class="modal-body">
+               <ul>          
+				</ul>   
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    
+    
+</div>
+<script type="text/javascript">
+    
+// jquery ready start
+$(document).ready(function() {
+	// jQuery code
+
+	//////////////////////// Prevent closing from click inside dropdown
+    $(document).on('click', '.dropdown-menu', function (e) {
+      e.stopPropagation();
+    });
+
+    // make it as accordion for smaller screens
+    if ($(window).width() < 992) {
+	  	$('.dropdown-menu a').click(function(e){
+	  		e.preventDefault();
+	        if($(this).next('.submenu').length){
+	        	$(this).next('.submenu').toggle();
+	        }
+	        $('.dropdown').on('hide.bs.dropdown', function () {
+			   $(this).find('.submenu').hide();
+			})
+	  	});
+	}
+	
+}); // jquery end
+    
+    //modal for Comittee 
+    $('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('whatever') // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  modal.find('.modal-title').text('New message to ' + recipient)
+  modal.find('.modal-body input').val(recipient)
+})
+</script> 
+<!--end for navbar-->
+</body>
+</html>
